@@ -1,0 +1,39 @@
+.nav{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.title{
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+
+
+.nav a { 
+    color: inherit;
+    height: 100%;
+    align-items: center;
+    padding: .25rem;
+    display:flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav li:hover{
+    color:red;
+}
