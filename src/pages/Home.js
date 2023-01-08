@@ -32,16 +32,29 @@ export default function Home() {
 
   return (
     <div className="main">
-      <Particles
-        id="particleContainer"
-        options={{
-          fullScreen: { enable: false },
-          preset: 'seaAnemone',
-          container: '',
-        }}
-        init={particlesInit}
-      />
-      <h1>Here is the quote of the day!</h1>
+      <div>
+        <div className="centerContent">
+          <div className="mainBox">
+            <div className="centerBox">
+              <h2>awdawwada</h2>
+            </div>
+            <div className="centerBox">
+              <h2>awdawdawd</h2>
+            </div>
+          </div>
+        </div>
+
+        <Particles
+          id="particleContainer"
+          options={{
+            fullScreen: { enable: false },
+            preset: 'seaAnemone',
+            container: '',
+          }}
+          init={particlesInit}
+        />
+      </div>
+
       <img
         src="https://cataas.com/cat?width=500&height=500"
         alt="randomcat"

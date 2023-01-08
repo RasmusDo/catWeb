@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
 #particleContainer{
 
 
@@ -14,4 +17,55 @@
 
 .quouteList{
     color:white;
+}
+
+.centerContent{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.mainBox{
+    width: 50vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.centerBox{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100%;
+    height:100px;
+    margin: 20px;
+    background: transparent;
+    backdrop-filter: blur(7px);
+    border-radius: 5px;
+    text-align: center;
+
+
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+.centerBox h2{
+
+    font-size: 40px;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
