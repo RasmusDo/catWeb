@@ -1,15 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
 .nav{
-    background-color: rgb(32, 32, 32);
+    background-color: transparent;
+    font-family: 'Share Tech Mono', monospace;
     color: white;
     display:flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: none;
 }
 
