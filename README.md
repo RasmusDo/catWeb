@@ -1,10 +1,10 @@
 # WEBSITE
-
+TBD
 https://rasmusdo.github.io/catWeb/
 
 # REACT
 
-This website is build using react.
+This IS FRONT END ONLY BACK END HANDLED WITH EXPRESS 
 
 # WIP
 
